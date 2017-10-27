@@ -10,7 +10,7 @@ npm install font-awesome
 ```import 'font-awesome/css/font-awesome.css'```
 
 在组件中调用<br>
-<i class="fa fa-weixin"></i>
+```<i class="fa fa-weixin"></i>```
 
 查看所需图标的class值<br>
 http://fontawesome.dashgame.com/#new
@@ -22,11 +22,11 @@ http://fontawesome.dashgame.com/#new
 用symbol引用的方法<br>
 
 main.js:<br>
-import './assets/iconfont'//引入iconfont.js
+```import './assets/iconfont'//引入iconfont.js```
 
 封装一个icon.vue组件：<br>
 icon.vue
-
+```
 <template>
   <svg :class="iconStyle" aria-hidden="true">
     <use :xlink:href="iconName"></use>
@@ -66,9 +66,10 @@ icon.vue
   height: 3em;
 }
 </style>
-
+```
 组件中使用：
 demo.vue
+```
 <template>
 	<div class="home">
     <icon icon-style="style1 small" icon-class="icon"></icon>
@@ -94,4 +95,4 @@ demo.vue
   overflow: hidden;
 }
 </style>
-
+```
