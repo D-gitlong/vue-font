@@ -15,6 +15,7 @@ npm install font-awesome
 查看所需图标的class值<br>
 http://fontawesome.dashgame.com/#new
 
+# 制作自己的图标库
 利用阿里iconfont来生成自己的图标库http://iconfont.cn/home/index<br>
 
 用阿里iconfont把本地的icon图标上传，并添加到自己的项目中，下载这个项目，该项目有iconfont.js这个文件，把它复制到vue项目中的assets中。<br>
