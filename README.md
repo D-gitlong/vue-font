@@ -1,30 +1,30 @@
 # vue-font
 有关vue引用Font-Awesome及用阿里的iconfont
 
-Font-Awesome的使用：
+# Font-Awesome的使用：
 
-在vue-cli脚手架中安装Font-Awesome
+在vue-cli脚手架中安装Font-Awesome<br>
 npm install font-awesome
 
-在main.js里添加
-import 'font-awesome/css/font-awesome.css'
+在main.js里添加<br>
+```import 'font-awesome/css/font-awesome.css'```
 
-在组件中调用
+在组件中调用<br>
 <i class="fa fa-weixin"></i>
 
-查看所需图标的class值
+查看所需图标的class值<br>
 http://fontawesome.dashgame.com/#new
 
-利用阿里iconfont来生成自己的图标库http://iconfont.cn/home/index
+利用阿里iconfont来生成自己的图标库http://iconfont.cn/home/index<br>
 
-用阿里iconfont把本地的icon图标上传，并添加到自己的项目中，下载这个项目，该项目有iconfont.js这个文件，把它复制到vue项目中的assets中。
+用阿里iconfont把本地的icon图标上传，并添加到自己的项目中，下载这个项目，该项目有iconfont.js这个文件，把它复制到vue项目中的assets中。<br>
 
-用symbol引用的方法
+用symbol引用的方法<br>
 
-main.js:
+main.js:<br>
 import './assets/iconfont'//引入iconfont.js
 
-封装一个icon.vue组件：
+封装一个icon.vue组件：<br>
 icon.vue
 
 <template>
